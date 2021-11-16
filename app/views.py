@@ -21,6 +21,9 @@ from datetime import datetime, timedelta
 # pylint: disable=invalid-name
 viewsbp = Blueprint('views', __name__, url_prefix='/')
 
+###########################################################################################
+# This is a proof of concept app and it is provided as-is. There is no support of any kind.
+###########################################################################################
 
 @viewsbp.route('/getOffenses')
 def getOffenses():
