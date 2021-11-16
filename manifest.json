@@ -1,0 +1,15 @@
+{
+  "name": "REST Method",
+  "description": "Demonstrates REST method used by dashboard item",
+  "version": "1.9",
+  "uuid": "fde319f2-8427-47d2-a8a2-9da2240f4019",
+  "image": "qradar-app-base:2.0.5",
+  "rest_methods": [
+    {
+      "name": "getOffenses",
+      "url": "/getOffenses",
+      "method": "GET",
+      "argument_names": []
+    }
+  ]
+}
